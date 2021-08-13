@@ -1,4 +1,4 @@
-database = dofile("./library/redis.lua").connect("127.0.0.1", 6379)
+redis = require('redis')
 https = require ("ssl.https") 
 serpent = dofile("./library/serpent.lua") 
 json = dofile("./library/JSON.lua") 
